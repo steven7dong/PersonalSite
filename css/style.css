@@ -1,0 +1,71 @@
+
+body{
+  text-align: center;
+  font-family: 'Baskerville', sans-serif;
+  font-size: 1em;
+}
+span{
+  text-decoration: underline;
+}
+
+h1{
+  font-family: 'Sacramento', sans-serif;
+  font-size: 5.5rem; /*90px is 16%    16px = 100% = 1em em will inherit from parent but rem wont*/
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 0 auto 70px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+.glasses{
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+}
+.giphy{
+  width: 40%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-table{
+  margin: 0 auto 0 auto;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.avatar{
+  width: 170px;
+  height: 250px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud{
+  bottom: 300px;
+  left: 300px;
+  position: absolute;
+}
